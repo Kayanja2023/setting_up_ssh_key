@@ -1,4 +1,4 @@
-# ✅ GitHub SSH Key Setup — Documentation
+#  GitHub SSH Key Setup — Documentation
 
 This README documents the successful setup of an SSH connection between a local machine and GitHub for the user **Andile Michael Kayanja Lwanga (`Kayanja2023`)**.
 
