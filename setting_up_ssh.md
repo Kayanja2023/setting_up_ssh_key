@@ -1,15 +1,15 @@
-#  GitHub SSH Key Setup — Documentation
+#  GitHub SSH Key Setup 
 
 This README documents the successful setup of an SSH connection between a local machine and GitHub for the user **Andile Michael Kayanja Lwanga (`Kayanja2023`)**.
 
 ---
 
-## 📌 Objective
+##  Objective
 Establish a secure and password-less connection to GitHub using SSH, enabling streamlined cloning, pushing, and pulling from remote repositories.
 
 ---
 
-## 🔐 SSH Key Generation
+##  SSH Key Generation
 
 **Command used:**
 ```bash
@@ -23,7 +23,7 @@ ssh-keygen -t ed25519 -C "KayanjaLwanga@outlook.com"
 
 ---
 
-## 📋 Public Key Copied to Clipboard
+##  Public Key Copied to Clipboard
 
 **PowerShell Command:**
 ```powershell
@@ -34,7 +34,7 @@ This ensured the **correct public key** was copied in OpenSSH format.
 
 ---
 
-## 🌐 Key Added to GitHub
+##  Key Added to GitHub
 
 - Navigated to: [https://github.com/settings/keys](https://github.com/settings/keys)
 - Clicked: **"New SSH key"**
@@ -45,7 +45,7 @@ This ensured the **correct public key** was copied in OpenSSH format.
 
 ---
 
-## ✅ SSH Connection Verified
+##  SSH Connection Verified
 
 **Tested with:**
 ```bash
@@ -59,7 +59,7 @@ Hi Kayanja2023! You've successfully authenticated, but GitHub does not provide s
 
 ---
 
-## 📦 Cloning a Repository (Example)
+##  Cloning a Repository (Example)
 
 ```bash
 git clone git@github.com:Kayanja2023/your-repo-name.git
@@ -69,14 +69,14 @@ Replace `your-repo-name` with the actual repository you wish to clone.
 
 ---
 
-## 🧹 Cleanup / Missteps Resolved
+##  Cleanup / Missteps Resolved
 
 - Accidentally attempted to upload a **private key** → Resolved by deleting old key pair and regenerating it correctly.
 - Used **PowerShell instead of CMD** to run `Remove-Item` and clipboard commands properly.
 
 ---
 
-## 🧠 Lessons Learned
+##  Lessons Learned
 
 - GitHub only accepts public keys in **OpenSSH format** (e.g., starting with `ssh-ed25519`).
 - **Private keys must never be uploaded** or shared.
@@ -84,7 +84,7 @@ Replace `your-repo-name` with the actual repository you wish to clone.
 
 ---
 
-## 📎 Useful Commands Summary
+##  Useful Commands Summary
 
 | Task                             | Command |
 |----------------------------------|---------|
